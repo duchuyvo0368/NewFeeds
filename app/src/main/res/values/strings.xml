@@ -1,0 +1,139 @@
+
+<resources>
+    <string name="app_name">NewsFeed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings for items in activity_main_drawer.xml -->
+    <string name="ic_title_home">Home</string>
+    <string name="ic_title_world">World</string>
+    <string name="ic_title_science">Science</string>
+    <string name="ic_title_sport">Sport</string>
+    <string name="ic_title_environment">Environment</string>
+    <string name="ic_title_society">Society</string>
+    <string name="ic_title_fashion">Fashion</string>
+    <string name="ic_title_business">Business</string>
+    <string name="ic_title_culture">Culture</string>
+
+    <!-- Text to display in the list when there are no news [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">You are offline. \nPlease check your Internet
+        connection.</string>
+
+    <!-- Content description of the image -->
+    <string name="image_des">Image</string>
+    <string name="image_des_ic_share">Share</string>
+
+    <string name="updated_just_now">Updated just now</string>
+    <string name="share_article">Share Article</string>
+
+    <string name="the_guardian">New Feed</string>
+
+    <!-- Strings for Section -->
+    <string name="world">world</string>
+    <string name="science">science</string>
+    <string name="sport">sport</string>
+    <string name="environment">environment</string>
+    <string name="society">society</string>
+    <string name="fashion">fashion</string>
+    <string name="business">business</string>
+    <string name="culture">culture</string>
+
+    <string name="hint_num_of_items">Between 1 and 50</string>
+
+    <!--Strings to be used for the Preference Labels -->
+    <string name="settings_number_of_items_label">Number of Items</string>
+    <string name="settings_number_of_items_key" translatable="false">number_of_items</string>
+    <string name="settings_number_of_items_default" translatable="false">10</string>
+
+    <!-- Strings for Order-By preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by relevance option [CHAR LIMIT=20]-->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Strings for From Date preference [CHAR LIMIT=30] -->
+    <string name="settings_from_date_label">From Date</string>
+    <string name="settings_from_date_key" translatable="false">from date</string>
+    <string name="settings_from_date_default" translatable="false">2010-01-01</string>
+
+    <!-- Strings for Order Date preference [CHAR LIMIT=30] -->
+    <string name="settings_order_date_label">Order Date</string>
+    <string name="settings_order_date_key" translatable="false">order date</string>
+    <string name="settings_order_date_default" translatable="false">@string/settings_order_date_published_value</string>
+
+    <!-- Label for order-date published option [CHAR LIMIT=20]-->
+    <string name="settings_order_date_published_label">Published</string>
+    <string name="settings_order_date_published_value" translatable="false">published</string>
+
+    <!-- Label for order-date newspaper-edition option [CHAR LIMIT=30]-->
+    <string name="settings_order_date_newspaper_edition_label">Newspaper Edition</string>
+    <string name="settings_order_date_newspaper_edition_value" translatable="false">newspaper-edition</string>
+
+    <!-- Label for order-date last-modified option [CHAR LIMIT=30]-->
+    <string name="settings_order_date_last_modified_label">Last Modified</string>
+    <string name="settings_order_date_last_modified_value" translatable="false">last-modified</string>
+
+    <!-- Strings for Color-Theme preference [CHAR LIMIT=30] -->
+    <string name="settings_color_label">Color Theme</string>
+    <string name="settings_color_key">color theme</string>
+    <string name="settings_color_default">white</string>
+
+    <!-- Label for color theme white preference [CHAR LIMIT=20] -->
+    <string name="settings_color_white_label">White</string>
+    <string name="settings_color_white_value">white</string>
+
+    <!-- Label for color theme sky blue preference [CHAR LIMIT=20] -->
+    <string name="settings_color_sky_blue_label">Sky Blue</string>
+    <string name="settings_color_sky_blue_value">sky blue</string>
+
+    <!-- Label for color theme dark blue preference [CHAR LIMIT=20] -->
+    <string name="settings_color_dark_blue_label">Dark Blue</string>
+    <string name="settings_color_dark_blue_value">dark blue</string>
+
+    <!-- Label for color theme violet preference [CHAR LIMIT=20] -->
+    <string name="settings_color_violet_label">Violet</string>
+    <string name="settings_color_violet_value">violet</string>
+
+    <!-- Label for color theme light green preference [CHAR LIMIT=20] -->
+    <string name="settings_color_light_green_label">Light Green</string>
+    <string name="settings_color_light_green_value">light green</string>
+
+    <!-- Label for color theme green preference [CHAR LIMIT=20] -->
+    <string name="settings_color_green_label">Green</string>
+    <string name="settings_color_green_value">green</string>
+
+    <!-- Strings for Text Size preference [CHAR LIMIT=30] -->
+    <string name="settings_text_size_label">Text Size</string>
+    <string name="settings_text_size_key" translatable="false">text size</string>
+    <string name="settings_text_size_default" translatable="false">@string/settings_text_size_medium_value</string>
+
+    <!-- Label for text size small preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_small_label">Small</string>
+    <string name="settings_text_size_small_value" translatable="false">small</string>
+
+    <!-- Label for text size medium preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_medium_label">Medium</string>
+    <string name="settings_text_size_medium_value" translatable="false">medium</string>
+
+    <!-- Label for text size large preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_large_label">Large</string>
+    <string name="settings_text_size_large_value" translatable="false">large</string>
+
+</resources>

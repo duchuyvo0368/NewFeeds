@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-news-app.iml" filepath="$PROJECT_DIR$/.idea/modules/android-news-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-news-app.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-news-app.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-news-app.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-news-app.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-news-app.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-news-app.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-news-app.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-news-app.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
