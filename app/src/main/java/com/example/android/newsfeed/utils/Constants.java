@@ -22,22 +22,16 @@ public class Constants {
     static final String JSON_KEY_THUMBNAIL = "thumbnail";
     static final String JSON_KEY_TRAIL_TEXT = "trailText";
 
-    /** Read timeout for setting up the HTTP request */
     static final int READ_TIMEOUT = 10000; /* milliseconds */
-
-    /** Connect timeout for setting up the HTTP request */
     static final int CONNECT_TIMEOUT = 15000; /* milliseconds */
-
-    /** HTTP response code when the request is successful */
     static final int SUCCESS_RESPONSE_CODE = 200;
 
-    /** Request method type "GET" for reading information from the server */
     static final String REQUEST_METHOD_GET = "GET";
 
-    /** URL for news data from the guardian data set */
+
     public static final String NEWS_REQUEST_URL = "https://content.guardianapis.com/search";
 
-    /** Parameters */
+
     public static final String QUERY_PARAM = "q";
     public static final String ORDER_BY_PARAM = "order-by";
     public static final String PAGE_SIZE_PARAM = "page-size";
@@ -49,19 +43,14 @@ public class Constants {
     public static final String API_KEY_PARAM = "api-key";
     public static final String SECTION_PARAM = "section";
 
-    /** The show fields we want our API to return */
     public static final String SHOW_FIELDS = "thumbnail,trailText";
 
-    /** The format we want our API to return */
     public static final String FORMAT = "json";
 
-    /** The show tags we want our API to return */
     public static final String SHOW_TAGS = "contributor";
 
-    /** API Key */
     public static final String API_KEY = "test";
 
-    /** Default number to set the image on the top of the textView */
     public static final int DEFAULT_NUMBER = 0;
 
     /** Constants value for each fragment */
